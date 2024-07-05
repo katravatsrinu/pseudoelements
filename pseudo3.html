@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .car-container {
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+        }
+        .bike-container {
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .HIM-container {
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .G-63-container{
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            
+        }
+        img {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .HIM-container:hover img{
+            display: block;
+        }
+        .HIM-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .div{
+            background-color: black;
+        }
+        .car-container:hover div{
+            background-color: black;
+            display: block;
+        }
+        .car-container:hover img {
+            display: block;
+        }
+        .car-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-content: center; 
+        }
+        .bike-container:hover img {
+            display: block;
+        }
+        .bike-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .G-63-container:hover img {
+            display: block;
+        }
+        .G-63-container button {
+            position: relative;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>selctors</h1>
+    <div class="car-container">
+        <div class="color"></div>
+        <button class="car">Car</button>
+        <img src="https://images.pexels.com/photos/14648923/pexels-photo-14648923.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Car Image">
+    </div>
+    <div class="bike-container">
+        <button class="bike">bike</button>
+        <img src="https://imgd.aeplcdn.com/1056x594/n/cw/ec/95229/ninja-h2r-right-side-view-2.png?isig=0&q=80&wm=3" alt="Car Image">
+    </div>
+    <div class="HIM-container">
+        <button class="HIM">HIMALAYAN</button>
+        <img src="https://images.unsplash.com/photo-1663407978077-ca116e36abf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJveWFsJTIwZW5maWVsZCUyMGhpbWFsYXlhbnxlbnwwfHwwfHx8MA%3D%3D" alt="Car Image">
+    </div>
+    <div class="G-63-container">
+        <button class="G-63">G-63</button>
+        <img src="https://images.unsplash.com/photo-1654618345032-e3f3909750a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGc2M3xlbnwwfHwwfHx8MA%3D%3D" alt="Car Image">
+    </div>
+</body>
+</html>
